@@ -1,0 +1,40 @@
+body {
+    background: url('./images/computer2.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.black {
+    background-color: black;
+    height: 350px;
+    /* width: 45%; */
+    margin-top: 10%;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    padding: 60px;
+    opacity: 0.7;
+    font-family: 'Comfortaa', cursive;
+}
+
+@media (min-width:335px) {
+    .black {
+        background-color: rgb(242, 69, 69);
+        color: whitesmoke;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:768px) {
+    .black {
+        background-color: rgb(175, 173, 173);
+        color: black;
+    }
+}
+
+@media (min-width:1024px) {
+    .black {
+        background-color: pink;
+        color: black;
+    }
+}
